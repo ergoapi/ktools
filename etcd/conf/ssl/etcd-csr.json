@@ -1,0 +1,24 @@
+{
+    "key": {
+      "algo": "rsa",
+      "size": 2048
+    },
+    "names": [
+      {
+        "O": "etcd",
+        "OU": "etcd Security",
+        "L": "Beijing",
+        "ST": "Beijing",
+        "C": "CN"
+      }
+    ],
+    "CN": "etcd",
+    "hosts": [
+      "127.0.0.1",
+      "localhost",
+      "10.20.20.200",
+      "etcd.k8s.ysicing.me",
+      "*.etcd.k8s.ysicing.me"
+    ]
+  }
+  
